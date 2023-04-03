@@ -12,4 +12,21 @@ function clock () {
 
 }
 
-setInterval (clock, 1000)
+setInterval (clock, 1000);
+
+function off() {
+  document.getElementById("display").style.backgroundColor = "#000";
+    document.getElementById("c").style.backgroundColor = "#000";
+     document.getElementById("btns").style.backgroundColor = "#000";
+      document.getElementById("btn").style.backgroundColor = "#000";
+       document.getElementById("btn2").style.backgroundColor = "#000";
+        document.getElementById("btn3").style.backgroundColor = "#000";
+         document.getElementById("btn4").style.backgroundColor = "#000";
+}
+
+function musicaChique(camShotmp3) {
+  musicaChique('caminho/para/a/musica.mp3');
+  const audio = new Audio(camShot.mp3);
+  audio.play();
+}
+
