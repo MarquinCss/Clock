@@ -15,6 +15,7 @@ function clock () {
 setInterval (clock, 1000);
 
 function off() {
+    
   document.getElementById("display").style.backgroundColor = "#000";
     document.getElementById("c").style.backgroundColor = "#000";
      document.getElementById("btns").style.backgroundColor = "#000";
