@@ -24,9 +24,12 @@ function off() {
          document.getElementById("btn4").style.backgroundColor = "#000";
 }
 
-function musicaChique(camShotmp3) {
-  musicaChique('caminho/para/a/musica.mp3');
-  const audio = new Audio(camShot.mp3);
-  audio.play();
-}
+const botaoSom = document.querySelector('#botao-som');
 
+const som = new Audio('camShot.mp3');
+
+
+botaoSom.addEventListener('click', function() {
+
+  som.play();
+});
