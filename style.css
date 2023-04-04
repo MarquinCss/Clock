@@ -1,5 +1,7 @@
+@charset "utf-8";
 
 body{
+  background-color: rgb(48, 12, 32);
 display: flex;
 align-items: center;
 justify-content: center;
@@ -26,6 +28,7 @@ justify-content: center;
     top:250px;
     background-color:#ffffff;
     display: flex;
+    gap:20px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -39,10 +42,16 @@ justify-content: center;
 }
 
 .btn{
+    font-size:20px;
     width:40px;
     height:40px;
     border-radius: 50px;
     border:none;
+    transition: .2s;
+}
+
+.btn:hover{
+ transform:scale(1.2);
 }
 
 .display{
@@ -55,4 +64,18 @@ width:250px;
 height:150px;
 border-radius:20px;
 background-color:#ffffff;
+}
+
+.reforce{
+    box-shadow: 10px 5px 10px 1px black;
+    width:100px;
+    height:9px;
+    background-color: #272727;
+    position: absolute;
+    top:80px;
+    transition:5s;
+}
+
+.reforce:hover{
+     transform:scale(1.7);
 }
