@@ -42,9 +42,10 @@ botaoSom2.addEventListener('click', function() {
 });
 
 
+
 const botaoSom3 = document.querySelector('#btnSom3');
-const som2 = new Audio('./telefone.mp3');
+const som3 = new Audio('./telefone.mp3');
 
 botaoSom3.addEventListener('click', function() {
-  som2.play();
+  som3.play();
 });
