@@ -5,6 +5,7 @@ body{
 display: flex;
 align-items: center;
 justify-content: center;
+flex-direction: column;
 padding-top:50px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -77,16 +78,31 @@ border-radius:20px;
 background-color:#ffffff;
 }
 
-.reforce{
-    box-shadow: 10px 5px 10px 1px black;
-    width:100px;
-    height:9px;
-    background-color: #272727;
-    position: absolute;
-    top:80px;
-    transition:5s;
+footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top:30px;
+    font-size:24px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    gap:20px;
+    color:#000;
 }
 
-.reforce:hover{
-     transform:scale(1.7);
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:30px;
+    color:#000;
+     transition:.3s;
+}
+a{
+    color:#000;
+   
+}
+
+.icons i:hover{
+transform: scale(1.1);
 }
