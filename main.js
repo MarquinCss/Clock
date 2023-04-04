@@ -53,5 +53,7 @@ const botaoSom4 = document.querySelector('#btnSom4');
 const som4 = new Audio('./despertador.mp3');
 
 botaoSom4.addEventListener('click', function() {
-  som4.play();
+  setTimeout(function() {
+    som4.play();
+  }, 10000); 
 });
