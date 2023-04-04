@@ -20,7 +20,7 @@ function off() {
      document.getElementById("btns").style.backgroundColor = "#000";
       document.getElementById("btn").style.backgroundColor = "#000";
        document.getElementById("btnSom").style.backgroundColor = "#000";
-        document.getElementById("btn3").style.backgroundColor = "#000";
+        document.getElementById("btnSom2").style.backgroundColor = "#000";
          document.getElementById("btn4").style.backgroundColor = "#000";
 }
 
@@ -29,4 +29,12 @@ const som = new Audio('./camShot.mp3');
 
 botaoSom.addEventListener('click', function() {
   som.play();
+});
+
+
+const botaoSom2 = document.querySelector('#btnSom2');
+const som2 = new Audio('./mel.mp3');
+
+botaoSom2.addEventListener('click', function() {
+  som2.play();
 });
