@@ -19,7 +19,7 @@ function off() {
     document.getElementById("c").style.backgroundColor = "#000";
      document.getElementById("btns").style.backgroundColor = "#000";
       document.getElementById("btn").style.backgroundColor = "#000";
-       document.getElementById("btn2").style.backgroundColor = "#000";
+       document.getElementById("btnSom").style.backgroundColor = "#000";
         document.getElementById("btn3").style.backgroundColor = "#000";
          document.getElementById("btn4").style.backgroundColor = "#000";
 }
