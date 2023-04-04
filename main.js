@@ -24,12 +24,9 @@ function off() {
          document.getElementById("btn4").style.backgroundColor = "#000";
 }
 
-const botaoSom = document.querySelector('#botao-som');
-
-const som = new Audio('camShot.mp3');
-
+const botaoSom = document.querySelector('#btnSom');
+const som = new Audio('./camShot.mp3');
 
 botaoSom.addEventListener('click', function() {
-
   som.play();
 });
