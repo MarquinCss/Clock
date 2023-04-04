@@ -39,7 +39,7 @@ justify-content: center;
     top:290px;
     background-color:#ffffff;
     display: flex;
-    gap:21px;
+    gap:20px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -90,6 +90,7 @@ footer{
 }
 
 .icons {
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,4 +107,3 @@ a{
 .icons i:hover{
 transform: scale(1.1);
 }
-
